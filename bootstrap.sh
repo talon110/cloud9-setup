@@ -41,6 +41,8 @@ printf "========================\\n"'  /etc/update-motd.d/00-header
 #***********************************
 
 #sudo apt-get install zlib1g-dev
+sudo aptitude install ruby-rspec-core
+sudo aptitude install phantomjs
 
 sudo npm install -g forever
 sudo npm install -g node-gyp

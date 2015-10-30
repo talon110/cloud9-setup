@@ -22,6 +22,8 @@ Running `vagrant up` in this project will configure a Ubuntu 14.04 x64 virtual m
 - Node-gyp
 - Cloud9 SDK
 - Heroku Toolbelt
+- Ruby Rspec Core
+- PhantomJS
 
 ##Usage
 Before running 'vagrant up', the following steps must be taken:
@@ -29,7 +31,7 @@ Before running 'vagrant up', the following steps must be taken:
 - Install VirtualBox
 - Install Vagrant
 - Run `vagrant plugin install vagrant-vbguest` 
-- Run `vagrant plugin install vagrant-librarain-chef-nochef`
+- Run `vagrant plugin install vagrant-librarian-chef-nochef`
 - Copy desired `id_rsa` and `id_rsa.pub` files to `/config` folder if ssh will be used to connect from the guest virtual machine to another machine 
 
 After initial `vagrant up`:
@@ -40,4 +42,5 @@ After initial `vagrant up`:
 
 Notes:
 
-- All Chef cookbooks come from Supermarket except for rbenv, which is sourced from <https://github.com/chef-rbenv/chef-rbenv> 
+- All Chef cookbooks come from Supermarket except for rbenv, which is sourced from <https://github.com/chef-rbenv/ruby_rbenv>
+- When running a server, the command `rails s -b [virtual network IP]` must be used instead of `rails s -b $IP -p $PORT` as Cloud9 normally requires

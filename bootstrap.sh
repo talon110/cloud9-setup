@@ -46,6 +46,7 @@ sudo aptitude install phantomjs
 
 sudo npm install -g forever
 sudo npm install -g node-gyp
+sudo npm install
 
 git clone https://github.com/c9/core.git cloud9
 ./cloud9/scripts/install-sdk.sh

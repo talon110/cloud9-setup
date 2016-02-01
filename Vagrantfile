@@ -49,10 +49,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       rbenv: {
         user_installs: [{
           user: "vagrant",
-          rubies: ["2.2.3"],
-          global: "2.2.3",
+          rubies: ["2.2.1"],
+          global: "2.2.1",
           gems: {
-            "2.2.3" => [
+            "2.2.1" => [
               { name: "bundler" },
               { name: "rails" }
             ]

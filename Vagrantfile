@@ -40,7 +40,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe "mysql::server"
     chef.add_recipe "mysql::client"
     chef.add_recipe "postgresql"
-    chef.add_recipe "mongodb"
+    chef.add_recipe "mongodb3"
     chef.add_recipe "nginx"
 
     # Install Ruby 2.2.1, Bundler, and Rails

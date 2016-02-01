@@ -16,7 +16,7 @@ Running `vagrant up` in this project will configure a Ubuntu 14.04 x64 virtual m
 - Nodejs
 - Rbenv
 - Vim
-- Mongodb
+- Mongodb 3
 - Nginx
 - Forever
 - Node-gyp
